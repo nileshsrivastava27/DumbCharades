@@ -33,7 +33,7 @@ const MainDash = () => {
         sessionStorage.setItem("admin", false);
         navigate(`/game/${roomId}`);
       } else {
-        alert("Room id dosen't exist Enter a valid one");
+        alert("Room id dosen't exist enter a valid one");
       }
     }
   }
@@ -46,7 +46,7 @@ const MainDash = () => {
     const result = await isRoomValid();
 
     if (result === true) {
-      alert("Room id already exist Enter another one");
+      alert("Room id already exist enter another one");
     } else {
       axios
         .post("http://localhost:7500/api/addroom", {
@@ -108,7 +108,7 @@ const MainDash = () => {
           </h1>
           <input
             type="text"
-            placeholder="enter you name"
+            placeholder="Enter you name"
             onChange={(e) => {
               sessionStorage.setItem("playerName", e.target.value);
               setplayerName(e.target.value);

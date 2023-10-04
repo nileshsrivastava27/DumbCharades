@@ -25,7 +25,7 @@ const Navbar = () => {
                 {/* <div className="font-nav-links">
                     Leetcode
                 </div> */}
-                <a href="http://github.com/priyamshankar" target="_blank">
+                <a href="http://github.com/nileshsrivastava27" target="_blank">
                 <button>Contact us</button>    </a>
         </div>
     </div>
